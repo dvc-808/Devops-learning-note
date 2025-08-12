@@ -1,0 +1,24 @@
+FROM ubuntu:jammy AS node_app
+
+WORKDIR /node_app
+
+COPY . .
+
+RUN apt-get update && apt-get install -y curl \
+	&& curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+ENV NVM_DIR="/root/.nvm"
+
+RUN . "$NVM_DIR/nvm.sh"\
+    && nvm install 22 
+
+ENV PATH="$NVM_DIR/versions/node/v22.18.0/bin:$PATH"
+
+RUN npm i
+
+EXPOSE 8080
+
+ENTRYPOINT [ "node" ]
+
+CMD ["main.js"]
+
