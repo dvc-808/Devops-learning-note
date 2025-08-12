@@ -1,0 +1,126 @@
+.
+├── document
+│   ├── Azure
+│   │   ├── Module 01 - Identity.pdf
+│   │   ├── Module 02 - Governance and Compliance.pdf
+│   │   ├── Module 03 - Azure Resources.pdf
+│   │   ├── Module 04 - Virtual Networking.pdf
+│   │   ├── Module 05 - Network Traffic in Azure.pdf
+│   │   ├── Module 06 - Azure Storage.pdf
+│   │   ├── Module 07 - Azure Virtual Machines.pdf
+│   │   ├── Module 08 - PaaS Compute Options in Azure.pdf
+│   │   └── Module 09 - Configure Azure Monitor.pdf
+│   ├── CICD
+│   │   ├── CICD With AWS.pdf
+│   │   ├── DevOps_Overview.pdf
+│   │   ├── Git.pdf
+│   │   ├── Jenkins.pdf
+│   │   ├── Monitoring.pdf
+│   │   └── SonarQube.pdf
+│   ├── DevOps Books
+│   │   ├── 1. Linux
+│   │   │   ├── LPIC-1 Linux Professional Institute Certification Study Guide, 5th Edition.pdf
+│   │   │   └── Ubuntu Unleashed 2019 Edition.pdf
+│   │   ├── 2. Basic Programming
+│   │   │   └── Learning Go.pdf
+│   │   ├── 3. Docker
+│   │   │   └── Docker in Action.pdf
+│   │   ├── 4. CI-CD
+│   │   │   └── Continuous Delivery with Docker and Jenkins.pdf
+│   │   ├── 5. Kubernetes
+│   │   │   ├── Certified Kubernetes Administrator (CKA) Study Guide.pdf
+│   │   │   ├── Core Kubernetes.pdf
+│   │   │   ├── GitOps and Kubernetes.pdf
+│   │   │   ├── Istio in Action.pdf
+│   │   │   ├── Kubernetes Best Practices- Blueprints for Building Successful Applications on Kubernetes.pdf
+│   │   │   ├── Kubernetes In Action.pdf
+│   │   │   ├── Kubernetes Operators.pdf
+│   │   │   ├── Kubernetes Patterns.pdf
+│   │   │   ├── Managing Kubernetes.pdf
+│   │   │   └── Platform Engineering on Kubernetes.pdf
+│   │   ├── 6. Cloud
+│   │   │   ├── Amazon Web Services In Action 2nd.pdf
+│   │   │   └── Google Cloud Platform in Action.pdf
+│   │   ├── 7. Infrastructure Provisioning
+│   │   │   └── Terraform in Action.pdf
+│   │   ├── 8. Keep Learning
+│   │   │   ├── Ansible for DevOps.pdf
+│   │   │   ├── Elasticsearch in Action.pdf
+│   │   │   ├── Monitoring with Prometheus.pdf
+│   │   │   └── Running HashiCorp Vault in Production-Gumroad.pdf
+│   │   ├── CompNet
+│   │   │   └── Computer.Networking.A.TopDown.Approach.6th.Edition.pdf
+│   │   └── OS
+│   │       ├── Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf
+│   │       ├── William Shotts - The Linux Command Line, 2nd Edition_ A Complete Introduction-No Starch Press (2019).pdf
+│   │       └── Zhao Jiong - Linux Kernel source code - Haevily Commented (Kernel Version 0.12) (2019).pdf
+│   ├── DevOps Fresher Labs 1.pdf
+│   ├── devops roadmap.pdf
+│   ├── Docker-K8s
+│   │   ├── Docker-and-Kubernetes.pdf
+│   │   ├── Helm_chart.pdf
+│   │   ├── Session 10 Kubernetes(Cont.).pdf
+│   │   ├── Session 1  Getting started with Docker.pdf
+│   │   ├── Session 2  Building Docker images.pdf
+│   │   ├── Session 3  Docker Networking.pdf
+│   │   ├── Session 4Docker storage.pdf
+│   │   ├── Session 5  Making a real project with Docker and NodeJs.pdf
+│   │   ├── Session 7 Kubernetes.pdf
+│   │   ├── Session 8 Kubernetes(Cont.).pdf
+│   │   └── Session 9 Kubernetes(Cont.).pdf
+│   ├── GCP
+│   │   ├── Trainning GCP - Module 1 - Compute Engine Virtual VM.pdf
+│   │   ├── Trainning GCP - Module 2 - IAM.pdf
+│   │   ├── Trainning GCP - Module 3 - VPC.pdf
+│   │   ├── Trainning GCP - Module 4 - Storage.pdf
+│   │   └── Trainning GCP - Module 5 - GKE.pdf
+│   ├── 🛠️ Linux Networking Roadmap for DevOps Engineers (1).pdf
+│   ├── Slide AWS
+│   │   ├── IAM.pdf
+│   │   ├── Training AWS - Module 10 - Elastic Container Service.pdf
+│   │   ├── Training AWS - Module 11 - CICD With AWS.pdf
+│   │   ├── Training AWS - Module 1 - System Operation on AWS.pdf
+│   │   ├── Training AWS - Module 2 - Computing in AWS.pdf
+│   │   ├── Training AWS - Module 3 - Networking in AWS.pdf
+│   │   ├── Training AWS - Module 4 - Storage in AWS.pdf
+│   │   ├── Training AWS - Module 4 - Storage S3 in AWS.pdf
+│   │   ├── Training AWS - Module 5 - Elastic Load Balancing _ Auto Scaling Group.pdf
+│   │   ├── Training AWS - Module 6 - Storage S3 in AWS.pdf
+│   │   ├── Training AWS - Module 7 - Route 53.pdf
+│   │   ├── Training AWS - Module 8 - RDS, Aurora, ElastiCache.pdf
+│   │   └── Training AWS - Module 9 - CloudWatch.pdf
+│   └── Slide Linux
+│       ├── Training Linux - Day 1 - File , directory & Management, networking.pdf
+│       ├── Training Linux - Day 2 - Bash scripting.pdf
+│       ├── Training Linux - Day 3 - Ansible.pdf
+│       └── Training Linux - Day 4 - Terraform.pdf
+└── Lab
+    ├── Linux
+    │   ├── image-1.png
+    │   ├── image.png
+    │   ├── Linux.md
+    │   ├── linux_networking.md
+    │   ├── linux_process.md
+    │   ├── media
+    │   │   ├── bash.png
+    │   │   ├── chmod.png
+    │   │   ├── cnx.png
+    │   │   ├── findportnkill.png
+    │   │   ├── findproc.png
+    │   │   ├── homepath.png
+    │   │   ├── install.png
+    │   │   ├── killproc.png
+    │   │   ├── modfile.png
+    │   │   ├── remove.png
+    │   │   ├── showip.png
+    │   │   ├── tree1.png
+    │   │   ├── tree2.png
+    │   │   ├── tree3.png
+    │   │   ├── tree4.png
+    │   │   └── vim.png
+    │   └── tee.txt
+    └── terraform
+        ├── lab
+        └── terraform.md
+
+24 directories, 100 files
