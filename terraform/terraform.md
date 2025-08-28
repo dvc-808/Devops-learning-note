@@ -53,7 +53,7 @@ CRUD operations** (create, read, update, delete) on managed resources. Often, ma
 - destroy with ```terraform destroy```
 
 ## Terraform resource
-```HCL
+```Terraform
 resource "aws_instance" "helloworld" {
     ami = "ami-09dd2e08d601bff67"
     instance_type = "t2.micro"
@@ -123,7 +123,7 @@ removed {
 #### ``count``
 - Skip this if you want to copy and paste 1000 EC2 instances in the config file
 - Example usage:
-```HCL
+```Terraform
 resource "aws_instance" "server" {
   count = 4 # create four similar EC2 instances
 
@@ -140,7 +140,7 @@ resource "aws_instance" "server" {
 
 #### ``provider``
 - For multi-region projects
-```HCL
+```Terraform
 # default configuration
 provider "google" {
   region = "us-central1"
